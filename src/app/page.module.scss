@@ -1,0 +1,58 @@
+// header
+
+.header {
+  padding: 72px 0 80px;
+  background: #0D0D0D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  &__text {
+    color: #4EA8DE;
+    font-size: 40px;
+    font-weight: 900;
+
+    span {
+      color: #5E60CE;
+    }
+  }
+}
+
+// main
+
+.main {
+
+
+  &__input {
+    display: flex;
+    gap: 8px;
+    margin-top: -27px;
+
+    input {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #0D0D0D;
+      background: #262626;
+      padding: 16px;
+      color: #F2F2F2;
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    button {
+      border-radius: 8px;
+      background: #1E6F9F;
+      padding: 16px;
+      color: #F2F2F2;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+      border: none;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+  }
+}
